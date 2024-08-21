@@ -1,0 +1,81 @@
+/* Welcome Styling */
+.welcome {
+  background-color: var(--bg-primary);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-grid h2 {
+  text-align: center;
+  margin: var(--spacing-large) 0;
+}
+
+.program-grid .main-description {
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+}
+
+/* Grid Styling */
+.program-grid .card-img {
+  width: 100%;
+}
+
+.program-grid h3 {
+  color: var(--text-primary);
+  font-size: var(--fs-big);
+  margin: var(--spacing-medium) 0 var(--spacing-small) 0;
+}
+
+.program-grid p {
+  margin-bottom: var(--spacing-medium);
+}
+
+.program-grid .msft-icon {
+  width: 80px;
+  margin-left: var(--spacing-small);
+  position: relative;
+  top: 4px;
+}
+
+.program-grid span {
+  font-size: var(--fs-small);
+  color: var(--text-dark);
+}
+
+.program-grid .material-symbols-outlined {
+  color: #666;
+  vertical-align: middle;
+}
+
+.program-grid .program-detail {
+  margin-right: var(--spacing-medium);
+}
+
+.program-grid .details-button {
+  display: block;
+  color: white;
+  background-color: var(--button-color);
+  font-size: var(--fs-small);
+  width: 100px;
+  margin: var(--spacing-medium) 0;
+  border-radius: 4px;
+  text-align: center;
+  padding: 4px;
+}
+
+.program-grid .grid-element-content {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px;
+  padding: 4px;
+  height: 100%;
+}
+
+.program-grid .card-content {
+  padding: 0 var(--spacing-small);
+}
+
+.program-grid .grid-element {
+  margin-bottom: var(--spacing-medium);
+}

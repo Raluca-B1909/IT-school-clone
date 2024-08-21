@@ -1,0 +1,134 @@
+/* Welcome Styling */
+.welcome {
+  background-color: var(--bg-primary);
+  height: 100vh;
+}
+
+.welcome .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.welcome p {
+  color: var(--text-light);
+  font-size: var(--fs-regular);
+  margin-bottom: var(--spacing-medium);
+}
+
+.welcome a {
+  text-transform: uppercase;
+  color: var(--text-light);
+  background-color: var(--button-color);
+  font-size: var(--fs-small);
+  padding: var(--spacing-medium) var(--spacing-xl);
+  border-radius: 5px;
+  border: 2px solid var(--button-color);
+  margin-top: var(--spacing-large);
+}
+
+.welcome a:hover {
+  background-color: transparent;
+}
+
+.welcome img {
+  height: 25px;
+  margin-left: var(--spacing-small);
+  position: relative;
+  top: 6px;
+}
+
+.welcome span {
+  color: var(--text-secondary);
+}
+
+/* Calendar Styling */
+
+.calendar h2 {
+  text-align: center;
+  margin: var(--spacing-large) 0;
+}
+
+.calendar .grid-element-content {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: var(--spacing-medium) var(--spacing-small);
+  height: 100%;
+}
+
+.calendar .material-symbols-outlined {
+  font-size: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.calendar .decoration {
+  height: 4px;
+  background-color: var(--button-color);
+  border-radius: 5px;
+  margin-top: var(--spacing-large);
+}
+
+.calendar h3 {
+  color: var(--text-primary);
+  font-weight: 400;
+  margin-bottom: var(--spacing-medium);
+}
+
+.calendar span {
+  color: var(--text-dark);
+  font-size: var(--fs-tiny);
+}
+
+.calendar .location {
+  background-color: var(--text-secondary);
+  padding: 4px;
+}
+
+
+
+/* About Us Styling */
+
+.about-us-main {
+  background: var(--bg-secondary);
+}
+
+.about-us-main h2, .about-us-main p {
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+}
+
+.about-us-main h2 {
+  padding-top: var(--spacing-large);
+}
+
+.about-us-main img {
+  width: 100%;
+}
+
+/* Partener Styling */
+
+.partners h2 {
+  text-align: center;
+  padding-top: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+}
+
+.partners img {
+  width: 100px;
+  filter: grayscale(100%);
+  margin: 0 40px;
+}
+
+.partners img:hover {
+  filter: grayscale(0);
+}
+
+.partners .img-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
